@@ -1,13 +1,13 @@
 {
-  "name": "teste-cypress",
+  "name": "cy-appactions",
   "version": "1.0.0",
-  "description": "",
+  "description": "exemplo de appActions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run"
   },
   "keywords": [],
-  "author": "",
+  "author": "Yuri Mielli",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
