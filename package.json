@@ -1,7 +1,7 @@
 {
-  "name": "cy-appactions",
+  "name": "cy-bdd-cucumber",
   "version": "1.0.0",
-  "description": "exemplo de appActions",
+  "description": "exemplo de Behavior Driven Development",
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run"
@@ -11,6 +11,8 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^24.0.0",
+    "@cypress/webpack-preprocessor": "^7.0.2",
     "cypress": "^14.5.4"
   }
 }
